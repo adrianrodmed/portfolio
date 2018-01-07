@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<link rel="icon" href="img/logo.png" type="image/png">
+		<script type="text/javascript" src="js/codigo.js"></script>
+	</head>
+	<body onload="saludo()">
+		<div id="todo" class="container-fluid">	
+<!-- Encabezado -->
+			<div id="header">
+				<div id="logo">
+					<nav class="navbar navbar-light bg-primary">
+						<a class="navbar-brand" href="#bienvenida">
+							<img src="img/logo.png" width="30" height="30" class="d-inline-block align-top">
+							<p id="nombre-logo"><b>Adrián RodMed</b></p>
+						</a>
+					</nav>
+				</div>
+				<div id="barra-nav">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+						<a class="navbar-brand" href="#bienvenida"></a>
+						<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="navbar-collapse collapse" id="navbarColor02">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item active">
+									<a href="#yo" data-target="yo" class="nav-link">Sobre mí</a>
+								</li>
+								<li class="nav-item active">
+									<a href="#perfil" data-target="perfil" class="nav-link">Perfil</a>
+								</li>
+								<li class="nav-item active">
+									<a href="#habilidades" data-target="habilidades" class="nav-link">Habilidades</a>
+								</li>
+								<li class="nav-item active">
+									<a href="#estudios" data-target="estudios" class="nav-link">Estudios</a>
+								</li>
+								<li class="nav-item active">
+									<a href="#portfolio" data-target="portfolio" class="nav-link">Portfolio</a>
+								</li>
+								<li class="nav-item active">
+									<a href="#contactos" data-target="contactos" class="nav-link">Links</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>		
+<!-- Sección de Bienvenida -->
+			<div id="bienvenida">
+				<div id="texto-bienvenida">
+					<h1 id="bienvenida1">BIENVENIDOS</h1>
+					<h1 id="bienvenida2">a mi página web</h1>
+				</div>
+				<div id="boton-bienvenida">
+					<div id="boton-bienvenida1"></div>
+					<div id="boton-bienvenida2">
+                		<a title="Abajo" href="#yo"><img src="img/abajo.png" alt="Abajo" style="width:100%; height: 100%;"/></a>
+            		</div>
+            		<div id="boton-bienvenida3"></div>
+            	</div>
+			</div>
+			
+<!-- Sección Sobre mí -->
+			<div id="yo">
+				<div id="texto-yo">
+					<div id="saludo">
+						<h1 id="saludo1">Hola,</h1>
+						<h1 id="saludo2">mi nombre es</h1>
+					</div>
+					<div id="nombre">
+						<h1 id="nombre1"><b>Adrián</b></h1>
+						<h1 id="nombre2"><i>Rodríguez Medina</i></h1>
+					</div>
+					<div id="edad">
+						<h1 id="edad1">tengo</h1>
+						<h1 id="edad2">23 años</h1>
+					</div>
+					<div id="lugar">
+						<h1 id="lugar1">y soy español,</h1>
+						<h1 id="lugar2">nacido en <b>Madrid</b></h1>
+					</div>
+					<div id="estudio">
+						<h1 id="estudio1">graduado</h1>
+						<h1 id="estudio2">en <b>FÍSICA</b></h1>
+					</div>
+				</div>
+				<div id="imagen-yo">
+					<img id="imagenyo" src="img/yo.jpg" style="width:100%; height: 100%;">
+				</div>
+			</div>
+		
+<!-- Sección Perfil -->
+			<div id="perfil">
+				<div id="perfil1">
+					<h1 id="titulo-perfil"><b><i>Perfil</i></b></h1>
+					<div id="name">
+						<h1 id="name1">&#9679; Mi nombre es...</h1>
+						<h1 id="name2">Adrián Rodríguez Medina</h1>
+					</div>
+					<div id="birthday">
+						<h1 id="birthday1">&#9679; Nací el...</h1>
+						<h1 id="birthday2">20. Oct. 1994</h1>
+					</div>
+					<div id="nacionality">
+						<h1 id="nacionality1">&#9679; Tengo nacionalidad...</h1>
+						<h1 id="nacionality2">Española</h1>
+					</div>
+					<div id="estudies">
+						<h1 id="estudies1">&#9679; Mis últimos estudios...</h1>
+						<h1 id="estudies2">Grado en Física</h1>
+					</div>
+					<div id="hobbies">
+						<h1 id="hobbies1">&#9679; Me gusta...</h1>
+						<h1 id="hobbies2">Fútbol, libros, peliculas, series...</h1>
+					</div>
+				</div>
+				<div id="perfil2">
+					<div id="carrusel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carrusel" data-slide-to="0" class="active"></li>
+							<li data-target="#carrusel" data-slide-to="1" class=""></li>
+							<li data-target="#carrusel" data-slide-to="2" class=""></li>
+							<li data-target="#carrusel" data-slide-to="3" class=""></li>
+							<li data-target="#carrusel" data-slide-to="4" class=""></li>
+							<li data-target="#carrusel" data-slide-to="5" class=""></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="img/1.jpg" data-holder-rendered="true">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/2.jpg" data-holder-rendered="true">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/3.jpg" data-holder-rendered="true">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/4.jpg" data-holder-rendered="true">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/5.jpg" data-holder-rendered="true">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/6.jpg" data-holder-rendered="true">
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+						<a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+					</div>
+				</div>
+			</div>
+<!-- Habilidades -->
+			<div id="habilidades">
+				<div id="skills1">
+					<div id="skills1-1">
+						<h1 id="skills1-1-1"><b><i>Habilidades</i></b></h1>
+					</div>
+					<div id="skills1-2">
+						<h1 id="skills1-2-1">&#9656; Constancia</h1>
+					</div>
+					<div id="skills1-3">
+						<h1 id="skills1-3-1">&#9656; Trabajo en equipo</h1>
+					</div>
+					<div id="skills1-4">
+						<h1 id="skills1-4-1">&#9656; Paciencia</h1>
+					</div>
+					<div id="skills1-5">
+						<h1 id="skills1-5-1">&#9656; Afán de superación</h1>
+					</div>
+				</div>
+				<div id="skills2">
+					<img id="imagenskills" src="img/skills.jpg" style="width:100%; height: 100%;">
+				</div>
+				<div id="skills3">
+					<div id="skills3-1">
+						<h1 id="skills3-1-1"><b><i>Habilidades</i></b></h1>
+					</div>
+					<div id="skills3-2">
+						<h1 id="skills3-2-1">&#9642; Empatía</h1>
+					</div>
+					<div id="skills3-3">
+						<h1 id="skills3-3-1">&#9642; Alta capacidad de aprendizaje</h1>
+					</div>
+					<div id="skills3-4">
+						<h1 id="skills3-4-1">&#9642; Responsabilidad</h1>
+					</div>
+					<div id="skills3-5">
+						<h1 id="skills3-5-1">&#9642; Iniciativa</h1>
+					</div>
+				</div>
+			</div>
+<!-- Estudios -->
+			<div id="estudios">
+				<div id="estudios1">
+				 <h1 id="titulo-estudios"><b><i>Estudios y trabajos</i></b></h1>
+				</div>
+				<div id="estudios2">
+					<div id="formacion1">
+						<div id="titulos">
+							<h1 id="titulos1"><b>ESTUDIOS</b></h1>
+						</div>
+						<div id="primaria">
+							<h1 id="primaria1">&#8669; Título de educación primaria (modalidad bilingüe)</h1>
+						</div>
+						<div id="secundaria">
+							<h1 id="secundaria1">&#8669; Título de educación secundaria obligatoria (modalidad bilingüe)</h1>
+						</div>
+						<div id="bachillerato">
+							<h1 id="bachillerato1">&#8669; Título de bachillerato (modalidad blingüe)</h1>
+						</div>
+						<div id="universidad">
+							<h1 id="universidad1">&#8669; Título de grado universitario en Física</h1>
+						</div>
+					</div>
+					<div id="formacion2">
+						<div id="practicas">
+							<h1 id="practicas1"><b>PRÁCTICAS</b></h1>
+						</div>
+						<div id="practica1">
+							<h1 id="practica1-1">&#8674; Ciencia y tecnología de altos campos mágneticos</h1>
+						</div>
+						<div id="profesor">
+							<h1 id="profesor1">&#8674; Profesor de clases particulares</h1>
+						</div>
+						<div id="practica2">
+							<h1 id="practica2-1">&#8674; Estudio de la transición de fase superconductora en una cerámica de alta temperatura crítica</h1>
+						</div>
+						<div id="ingles">
+							<h1 id="ingles1">&#8674; Blended learning course B2</h1>
+						</div>
+					</div>
+					<div id="otros">
+						<div id="curso">
+							<h1 id="curso1"><b>CURSO EN DESARROLLO DE APLICACIONES WEB</b></h1>
+						</div>
+						<div id="fundamentos">
+							<h1 id="fundamentos1">&#8692; Desarrollo Front-End (HTML5, CSS3, Javascript, Jquery, Bootstrap)</h1>
+						</div>
+						<div id="administracion">
+							<h1 id="administracion1">&#8692; Administración y gestión de bases de datos (Oracle, MySQUL, Json, Mongo)</h1>
+						</div>
+						<div id="desarrollo1">
+							<h1 id="desarrollo1-1">&#8692; Desarrollo Back-End (Java, J2EE, Spring, Hibernate)</h1>
+						</div>
+						<div id="desarrollo2">
+							<h1 id="desarrollo2-1">&#8692; Herramientas multiplataforma (Angular 2, Ionic 2, Node JS, Firebase)</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+<!-- Portfolio -->
+			<div id="portfolio">
+				<div id="titulo-portfolio">
+					<h1 id="titulo-portfolio1"><b><i>Portfolio</i></b></h1>
+				</div>
+				<div id="cuerpo-portfolio">
+					<div id="portfolio1">
+						<div id="portfolio1-1">
+							<a title="Tecnología" href="docs/tecnologia.pdf"><img src="img/tecnologia.jpg" alt="Tecnología" style="width:100%; height: 100%;"/></a>
+						</div>
+						<div id="portfolio1-2">
+							<a id="portfolio1-2-1" href="docs/tecnologia.pdf">Ciencia y tecnología de altos campos magnéticos</a>
+						</div>
+					</div>
+					<div id="portfolio2">
+						<div id="portfolio2-1">
+							<a title="Ciencia" href="docs/estudio.pdf"><img src="img/estudio.jpg" alt="Ciencia" style="width:100%; height: 100%;"/></a>
+						</div>
+						<div id="portfolio2-2">
+							<a id="portfolio2-2-1" href="docs/estudio.pdf">Estudio de la transición de fase superconductora en una cerámica de alta temperatura crítica</a>
+						</div>
+					</div>
+					<div id="portfolio3">
+						<div id="portfolio3-1">
+							<a title="Atómica" href="docs/acoplamiento.pdf"><img src="img/acoplamiento.jpg" alt="Atómica" style="width:100%; height: 100%;"/></a>
+						</div>
+						<div id="portfolio3-2">
+							<a id="portfolio3-2-1" href="docs/acoplamiento.pdf">Acoplamientos L-S con campo magnético aplicado para un átomo de configuración electrónica (nd)<sup>5</sup></a>
+						</div>
+					</div>
+					<div id="portfolio4">
+						<div id="portfolio4-1">
+							<a title="Interferencia" href="docs/interferencia.pdf"><img src="img/interferencia.jpg" alt="Interferencia" style="width:100%; height: 100%;"/></a>
+						</div>
+						<div id="portfolio4-2">
+							<a id="portfolio4-2-1" href="docs/interferencia.pdf">Interferencia y difracción de microondas</a>
+						</div>
+					</div>
+					<div id="portfolio5">
+						<div id="portfolio5-1">
+							<a title="Vórtice" href="docs/vortice.pdf"><img src="img/vortice.jpg" alt="Vórtice" style="width:100%; height: 100%;"/></a>
+						</div>
+						<div id="portfolio5-2">
+							<a id="portfolio5-2-1" href="docs/vortice.pdf">Vórtice por sumidero</a>
+						</div>
+					</div>
+				</div>
+			</div>
+<!-- Contactos -->
+			<div id="contactos">
+				<div id="titulo-contactos">
+					<h1 id="titulo-contactos1"><b><i>Links</i></b></h1>
+				</div>
+				<div id="cuerpo-contactos">
+					<div id="cuerpo-contactos1">
+						<div id="contacto1">
+							<a id ="linkedin" class="btn btn-primary" href="https://www.linkedin.com/in/adrian-rodriguez-medina/" role="button"><i>LinkedIn</i></a>
+						</div>
+						<div id="contacto2"></div>
+						<div id="contacto3">
+							<a id="mail" class="btn btn-primary" href="mailto:adrianrodmed94@gmail.com" role="button"><i>Gmail</i></a>
+						</div>
+					</div>
+					<div id="cuerpo-contactos2">
+						<div id="contacto4"></div>
+						<div id="contacto5"></div>
+						<div id="contacto6"></div>
+					</div>
+					<div id="cuerpo-contactos3">
+						<div id="contacto7">
+							<a id="curriculum" class="btn btn-primary" href="docs/curriculum.pdf" role="button"><i>Curriculum Vitae</i></a>
+						</div>
+						<div id="contacto8"></div>
+						<div id="contacto9">
+							<a id="github" class="btn btn-primary" href="https://github.com/adrianrodmed" role="button"><i>Github</i></a>
+						</div>
+					</div>
+           		</div>
+           	</div>
+<!-- Botón -->
+			<div id="despedida">
+				<div id="boton-despedida">
+					<div id="boton-despedida1"></div>
+					<div id="boton-despedida2">
+	      	      		<a title="Arriba" href="#bienvenida"><img src="img/arriba.png" alt="Arriba" style="width:100%; height: 100%;"/></a>
+           			</div>
+           			<div id="boton-despedida3"></div>
+           		</div>
+           	</div>
+		</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	</body>
+</html>
